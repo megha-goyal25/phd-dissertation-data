@@ -1,0 +1,232 @@
+,Variables,Labels ,Indicators,Variable Type,Codes
+,,,,,
+,councillor_age,Age,Socio-Economic Information,Integer,Below 30 = A; 30-40=B; 40-50=C; 50-60=D; 60+=E;
+,councillor_education,Education,,Nominal,Illiterate=0; Primary=1; Secondary=2; Higher secondary=3; Graduate =4
+,councillor_occupation,Occupation,,,House wife=HW; Agriculture and Household work=AH; Self-employed=SE; Teaching/Education: TE; Industrial labour=IL; Others=99;
+,councillor_income,Monthly Income (Individual),,,"<25,000=0; 25,000-50,000=1; 51,000-75,000=2; 76,000-1,00,000=3; 1,00,000+=4;"
+,councillor_caste,Which caste category does the councillor belong to?,,,"SC, ST, OBC, GN"
+,councillor_religion,Which religion does the councillor belong to?,,,Hindu=H; Muslim=M; Christian=C;Jain=J; Others=11
+,councillor_marital,Marital Status,,,Married=M; Unmarried=U; Widow=W; Divorced=D;
+,councillor_children,No. of Children,,Integer,
+,councillor_union,Name of Union,,,
+,councillor_ward,Ward No. ,,Integer,
+,councillor_party,Which party is the councillor in?,,,"BJP=B, Congress=C, Independent=I, RLP=R"
+,councillor_property,Does the councillor have any property?,,Binary,Yes=1; No=0;
+,councillor_bread,Family Breadwinner,,,Self=1; Spouse=0
+,husband_age,Husband's Age,,Binary,
+,husband_education,Husband's Education,,,Below 30 = A; 30-40=B; 40-50=C; 50-60=D; 60+=D;
+,husband_income,Husband's Monthly Income,,Integer,Illiterate=0; Primary=1; Secondary=2; Higher secondary=3; Graduate =4
+,husband_occupation,Husband's Occupation,,,"<25,000=0; 25,000-50,000=1; 51,000-75,000=2; 76,000-1,00,000=3; 1,00,000+=4;"
+,father_age,Father's Age,,,Below 30 = A; 30-40=B; 40-50=C; 50-60=D; 60+=D;
+,father_education,Father's Education ,,,Illiterate=0; Primary=1; Secondary=2; Higher secondary=3; Graduate =4
+,father_income,Father's Monthly Income,,,"<25,000=0; 25,000-50,000=1; 51,000-75,000=2; 76,000-1,00,000=3; 1,00,000+=4;"
+,father_occupation,Father's Occupation,,,
+,councillor_politics_age,At Which Age Did You Enter Politics,,,
+,councillor_terms,Experience as Councillor (Terms),,,
+,councillor_prior_elected,Prior Political Posts,,,Yes=1; No=0;
+,councillor_prior_org,Prior Posts Elsewhere ,,Integer,Political party=PP; Social organization=SO; Both=22; Neither=11;
+,councillor_motivation,Motivation ,,Integer,"Party's Decision=1, Other's decision=2, Own decision=3"
+,councillor_family,Family Background in Politics,,Binary,Yes=1; No=0;
+,councillor_relatives,Relatives in Politics,,Integer,Relatives in active position=R1; Relative in politics but without the position=R0; No relative in active politics=-99;
+,councillor_young_gen,How do young people perceive you?,,Integer,Accept gladly=100; Accept conservatively=50; Do not accept=-99;
+,councillor_old_gen,How do elderly people perceive you?,,Integer,Accept gladly=100; Accept conservatively=50; Do not accept=-99;
+,councillor_motivate_other,Motivating Others,,Binary,Yes=1; No=0;
+,councillor_general,Contesting for General Seats,,Binary,Yes=1; No=0;
+,councillor_imp_education,To what level of education you think is important in local politics,,Binary,Yes=1; No=0;
+,councillor_newspaper,Newspaper,,Binary,Yes=1; No=0;
+,councillor_television,Television,,Binary,Yes=1; No=0;
+,councillor_internet,Internet,,Binary,Yes=1; No=0;
+,councillor_information,Is access to information important? ,,Binary,Yes=1; No=0;
+,councillor_societal_problem,"Do you feel any societal problem, performing your responsibilities? If yes, what type of problems do you face?",,"BInary, Qualitative",Yes=1; No=0;
+,,,,,
+,awareness_power,Awareness of Powers ,Awareness,Binary,Yes=1; No=0;
+,awareness_roads,Communications and Constructions,,Binary,Yes=1; No=0;
+,awareness_women,Women and Child Dev.,,Binary,Yes=1; No=0;
+,awareness_health,Health,,Binary,Yes=1; No=0;
+,awareness_law,Law & Order,,Binary,Yes=1; No=0;
+,awareness_water,Water and Electricity,,Binary,Yes=1; No=0;
+,awareness_urban,Urban Housing,,Binary,Yes=1; No=0;
+,awareness_education,Education,,Binary,Yes=1; No=0;
+,awareness_waste,Waste management,,Binary,Yes=1; No=0;
+,awareness_amendment,74th Constitutional Amendment Act,,Integer,Aware=100; Ignorant=0; Essential=50; Not Essential=-50;
+,awareness_reservation,Reservation Policy,,Integer,Aware=100; Ignorant=0; Essential=50; Not Essential=-50;
+,awareness_ulb,Awareness of total working of urban local bodies,,Binary,Essential=50; Not Essential=-50;
+,awareness_duties,How do you feel about your duties as an elected member?,,Binary,Essential=50; Not Essential=-50;
+,awareness_local_gvt,Understanding of Local Government,,Binary,Not at all=-99; Very little=1; Moderate=2; Substantial/sufficient=3;
+,awareness_woman_council,Understanding of roles and duties of women councillors,,Integer,Not at all=-99; Very little=1; Moderate=2; Substantial/sufficient=3;
+,awareness_municipal_council,Understanding of municipal councillor roles,,Binary,Not at all=-99; Very little=1; Moderate=2; Substantial/sufficient=3;
+,awareness_udp,Aware of urban development program,,Binary,Yes=1; No=0;
+,awareness_grant,Aware of sources of grants,,Binary,Yes=1; No=0;
+,,,,,
+,gender_focus,Do you think you should focus more on gender issues?,Perception of Gender,Binary,Yes=1; No=0;
+,imp_gender_issues,How important are gender issues to you?,,Qualitative,
+,gender_stereotypes,What are some usual gender stereotypes in your region?,,Qualitative,
+,opp_gender_perspective,"If you were of opposite gender, how different would your life be?",,Qualitative,
+,political_situation_gender,What do you think is the current political situation betwen the men and women?,,Qualitative,
+,gender_equality_effects,"If women were treated equally in politics, what would be the effects of it?",,Qualitative,
+,gender_equality_mean,What does gender equality mean to you and the council?,,Qualitative,
+,analyzing_prog_women,Do you think analyzing policies and planning programmes with women in focus is a good idea? Explain how.,,Qualitative,
+,sensitive_women_comp,Are you sensitive towards the views and complaints of women in your region?,,Qualitative,Yes=1; No=0;
+,views_received,Do you think your views are heard or ignored due to your gender?,,Binary,Yes=1; No=0;
+,reasons_low_wom_participation,What do you think are reasons for women to have a lower participation in the council?,,Qualitative,
+,men_views_better,Do you think views of  men are sometimes bettern when planning certain projects/programmes/policies?,,"Binary, Qualitative",Yes=1; No=0;
+,perspective_all_levels,"If every councillor could put their perspective at all levels and areas in your council's policy making, how would that impact your council and ward?",,Binary,
+,councillor_work_women,Is there anything specific you'd have done for women in your ward?,,Qualitative,
+,,,,Qualitative,
+,councillor_greatest_achievement,What do you see as your greatest achievement as councillor?,,Qualitative,
+,,,,,
+,gender_specialist,Does your council have a person (or persons) whose specific job is (are) to provide expertise on information about different genders and gender equality?,Gender-Sensitive Considerations,Qualitative,"I don't know=0; I know, we don't have one=1; I know we have one=2;"
+,roles_gender_specialist,What do you think should be the role and responsibilities for a council's gender specialist?,,Qualitative,
+,awareness_reserv_ext,Are you aware of the extension of reservation policy for women from 33% to 53% in pursuit of equality in opportunities to contest local elections?,,Qualitative,To the fullest extent=100; To a great extent=80; To a moderate extent=50; To a limited extent=30; None=-99; Don't know=0;
+,include_gender_analysis,Do most councillors include gender analysis considerations in project design?,,Integer,In all projects=100; In most projects=80; In few projects=50; None of the projects=-99; I don't know if its included=0;
+,opinion_fem_participation,"What is your opinion of the following statement: ""Management is committed to promote not just female representation but female participation""",,Integer,Strongly Agree=2; Agree=1; No opinion=0; Disagree=-1; Strongly disagree=-2;
+,skills_gender_analysis,Do you have the necessary knowledge and skills to integrate gender analysis in your council work?,,Integer,To the fullest extent=100; To a great extent=80; To a moderate extent=50; To a limited extent=30; Not at all=-99;
+,opinion_gender_sensitive,"What is your opinion of the following statement: ""Management in the council consists of members who are gender sensitive.""",,Integer,Strongly Agree=2; Agree=1; No opinion=0; Disagree=-1; Strongly disagree=-2;
+,opinion_two_child,"What is your opinion of the following statement: ""There has been a gradual increase of gender expertise among staff members in the council over the past five yeras after the introduction of two-child norm policy and extension of reservation in the council for women""?",,Integer,Strongly Agree=2; Agree=1; No opinion=0; Disagree=-1; Strongly disagree=-2;
+,ward_schemes_initiatives,What are the schemes or innitiatives running in your ward and how are they functioning?,,Qualitative,
+,,,,,
+,,,,,
+,policy_reserv_awarness,Do you think that the extension of reservation of seats in local government has enhanced women’s greater political awareness?,Effectiveness of National Policies,Binary,Yes=1; No=0;
+,policy_quota,Do you think quota seats are important to ensure women’s participation?,,Binary,Yes=1; No=0;
+,policy_general_quota,"Do you think that you would contest in general seats, if there were no quota seats?",,Binary,Yes=1; No=0;
+,policy_wom_enhance_society,Do you think women’s position in society has been enhanced with the reservation of seats in the local government?,,Binary,Yes=1; No=0;
+,policy_resist_reserv,"Do you think women are now showing greater resistance against dowry, domestic violence and husband’s polygamy after the reservation of quota seats?",,Binary,Yes=1; No=0;
+,policy_reduce_reserv,"Do you think that the incidents of dowry, domestic violence and husband’s polygamy has been reduced after the reservation of quota seats in local government?",,Binary,Yes=1; No=0;
+,policy_reduce_rape,Do you think that the incidents of rape and eaveteasing has been reduced after the reservation of quota seats in local government?,,Binary,Yes=1; No=0;
+,women_econ_indp,Do you think economic independence is necessary for the women for their meaningful political participation?,,Binary,Yes=1; No=0;
+,policy_wom_econ_indp,Do you think that women are now showing greater interest to engage them in paid work and earn economic independence after the reservation of quota seats in local government?,,Binary,Yes=1; No=0;
+,policy_wom_edu_value,Do you think that women’s education and employment are now valued by all of society after the reservation of quota seats in local government?,,Binary,Yes=1; No=0;
+,policy_wom_opin_value,Do you think that women’s political opinion are now valued by all of the society after the reservation of quota seats in local government?,,Binary,Yes=1; No=0;
+,aware_two_child,Are you aware of the two-child norm policy?,,Binary,Yes=1; No=0;
+,opinion_busy_wom,Do you think a woman who is busy in childcare would lack the time to be politically active?,,Binary,Yes=1; No=0;
+,opinion_male_child,Do you think the pressure to have a male child has been reduced after the two-child norm policy?,,Binary,Yes=1; No=0;
+,difficulties_child_birth,"If you are a mother, then did you face any difficulties to continue your political activities after the birth of your first child?",,Binary,Yes=1; No=0;
+,difficulties_facing,"If yes, what are the difficulties have you faced or are still facing?",,Binary,
+,opinion_local_two_child,Do you think opportunities in local government are now more accessible to women after the introduction of two-child norm policy?,,Qualitative,Yes=1; No=0;
+,opinion_two_child_dev,Do you think the two-child norm policy has made women work on developmental issues with more ease?,,Binary,Yes=1; No=0;
+,opinion_two_child_free,Do you think freedom for women’s choices has improved after the two-child norm policy?,,Binary,Yes=1; No=0;
+,opinion_new_gender_policy,"If you had to suggest any new policies, what would you recommend towards a more gender equal and gender neutral municipal council?",,Binary,
+,violation_two_child,Are you aware of any municipal councilor who has violated the two-child norm policy?,,Qualitative,Yes=1; No=0;
+,disqualify_two_child,"If yes, did the municipal councilor get disqualified for the violation?",,Binary,Yes=1; No=0;
+,,,,,
+,attend_meetings,Do you attend the meetings of the municipal councils?,Participation & Decision-Making,Integer,"Always=2, Sometimes=1, Never=-99"
+,participate_meetings,Do you actively participate in the meetings?,,Integer,"Always=2, Sometimes=1, Never=-99"
+,raise_issue_meetings,Do you raised an issue in the meetings of the municipal councils?,,Integer,"Always=2, Sometimes=1, Never=-99"
+,local_approach,How often do local people approach you with their problems?,,Integer,"Always=2, Sometimes=1, Never=-99"
+,readdress_greivances,Are you able to redress the grievances of the people?,,Integer,"Always=2, Sometimes=1, Never=-99"
+,family_dependence_prob,Do you depend upon your male family members to solve the problems of the people/masses?,,Integer,"Always=2, Sometimes=1, Never=-99"
+,male_local_approach,How often do the male members of the area approach you with the local problems?,,Integer,"Always=2, Sometimes=1, Never=-99"
+,participation_level,Level of Participation in meetings,,Integer,Full=100; Mute spectator=10; To fill the quorum=5; No participation=-99;
+,dependence_level,Dependence level,,Integer,"Husband=H, Family Member=FM, Act on their own=O; Male councillors=M;"
+,control_earn,Control the amount you earn,,Integer,Yes=1; No=0;
+,budget_participation,Participation in the Budget estimation,,Binary,Yes=1; No=0;
+,political_involve,Why did you become involved in politics?,,Binary,Family Heritage=F; Husband's Interest=H; Own choice=O; Political Party/NGO's interest=PN; Others=99;
+,decision_municipal_elect,Was it your own decision to participate in municipal elections?,,Binary,Yes=1; No=0;
+,inspire_elections,"If not, who inspired you most to compete in elections?",,Qualitative,
+,family_elections,Have any of your family members been in local or national level elections?,,Binary,Yes=1; No=0;
+,family_support,"If yes, have you received any support from him/her?",,Binary,Yes=1; No=0;
+,self_participation,Did you participate in your election campaign by yourself?,,Binary,Yes=1; No=0;
+,participation_time,"If yes, in which way and how much time did you spend for this purpose?",,Qualitative,
+,campaign_time,Could you campaign during both day and night?,,Binary,Yes=1; No=0;
+,campaign_door,Could you canvass your voters door to door?,,Binary,Yes=1; No=0;
+,campaign_support,"If you couldn't, who worked in this way on your behalf?",,Integer,Husband=H; In-laws=I; Friends=F; Party workers=P; NGO members=N; Others=99
+,campaign_family,Did your family members participate in your election campaign?,,Binary,Yes=1; No=0;
+,campaign_promises,"Did you make any promises in your election campaign? If yes, what are the promises you made?",,Binary,Yes=1; No=0;
+,campaign_finance,Who financed your election expenditure?,,"Binary, Qualitative",Husband=H; In-laws=I; Friends=F; Party workers=P; NGO members=N; Others=99
+,winning_factor_elect,What factor do you think helped the most in your winning the election?,,Binary,Your competence=Y; Family influence=F; Support from women=W; Support from chairman=C; Party support=P; Others=99;
+,previous_elect_exp,"If you are not a first time candidate, how did your previous experience help you?",,Qualitative,
+,responsibilites_elect,"Since becoming elected members of the municipal council, what responsibilities have you performed?",,Qualitative,
+,express_freely_meet,Can you express your opinion freely in the meeting?,,Qualitative,Yes=1; No=0;
+,influence_decision_making,Do you feel you influence the decision making process of the institution?,,Binary,Yes=1; No=0;
+,ext_decision_making,"If yes, to what extent can you influence the decisions?",,Binary,Greater influence=100; Moderate influence=50; Not at all=-99;
+,examp_decision_making,Give an example of how you have influenced decisions.,,Qualitative,
+,resp_chairman,Does the chairman value and respect your opinion?,,Integer,"Yes, almost all the time=100; Often times=80; Occaisionally=60; Not at all=-99;"
+,resp_male,Do the male members value and respect your opinion?,,Integer,"Yes, almost all the time=100; Often times=80; Occaisionally=60; Not at all=-99;"
+,resp_female,How do the other women members value and respect your opinion?,,Integer,"Yes, almost all the time=100; Often times=80; Occaisionally=60; Not at all=-99;"
+,women_consesus,Do the women members usually share consensus on important issues?,,Integer,"Yes, almost all the time=100; Often times=80; Occaisionally=60; Not at all=-99;"
+,women_disagreement_cause,"If not, what are the causes of their disagreement?",,Qualitative,
+,male_wom_support,Do the male members support the women members often and easily?,,Integer,"Yes, almost all the time=100; Often times=80; Occaisionally=60; Not at all=-99;"
+,offense_male,Do you feel embarrassed by any offensive/aggressive/personal comments by other male councilors?,,Integer,"Yes, almost all the time=100; Often times=80; Occaisionally=60; Not at all=-99;"
+,attend_special_meetings,Do you attend the special meetings?,,Binary,Yes=1; No=0;
+,disagreement_consider,"If yes, to what extent is your disagreement seriously considered?",,Binary,Considered always=100; Considered=50; Consider never=-99;
+,women_dev_role,What kind of role do you play regarding women and development through your work?,,Qualitative,
+,election_promises,Have you been able to fulfill your election promises to the voter?,,Binary,Yes=1; No=0;
+,benefits_women,What benefits have you achieved for women by your role and performance?,,Binary,
+,suggest_equal_part,"To ensure equal participation of women members in the local government institutions, what do you suggest?",,Qualitative,
+,suggest_promote_wom,To promote women’s involvement in local/national politics what do you suggest?,,Qualitative,
+,suggest_improve_family,To improve women’s position in the family?,,Qualitative,
+,suggest_improve_society,"To improve role and participation in society, what do you suggest?",,Qualitative,
+,projects_women,What type of projects do you take to make life better for the local women population?,,Qualitative,Housing=H; Health facilities=HF; Job opportunity=J; Transport=T; Services; Recration=R; Environment=E; Public toilet=PT; Public safety=PS; Education=E;
+,effect_coop_male,What type of corporation do you expect from the male colleague to participate in the activities effectively?,,Integer,Expect reasonable behavior and constructive comments=100; Opportunity to speak in different forums=80; Good advice=60; Ensure in all meetings=50; Others=99;
+,comment_wom_part_dm,Comment on women’s participation in the decision making level according to your own experience,,,
+,commitees_member,How many committees are you a member of?,,Qualitative,
+,chairing_committees,"Are you chairing any committee? If yes, name them.",,Integer,Yes=1; No=0;
+,percent_meetings,How many meetings are you attending?,,Binary,50%=50; 75%=75; 100%=100;
+,raise_questions,Do you raise questions?,,Integer,Yes=1; No=0;
+,equal_imp_male,Do you think you are given equal importance as compared to your male colleagues both from municipal council and your party?,,Binary,Yes=1; No=0;
+,male_prejudice,Do you think male councilors as a group are prejudiced against women councilors?,,Binary,Yes=1; No=0;
+,women_cut_lines,Do you think women councilors should cut across party lines to work together on gender issues?,,Binary,Yes=1; No=0;
+,opinion_familiy_position,"Do you think your position in the family has improved or became prominent, after being elected as councilor?",,Binary,Yes=1; No=0;
+,voice_fam_decision,Do you think you have more voice in decision making in the family?,,Binary,Yes=1; No=0;
+,perceived_changes_elect,What are some of the perceived improvements and attitudinal changes after you being elected?,,Binary,Change in children education=CH; Contesting elections agian and from a higher level=EH; Perceptional change in status with family and community=P; No change=-99; Can't say=0;
+,,,,,
+,problems_knowledge,"Was there an initial problem, faced by you, in terms of knowledge of rules and procedures?",,Binary,Yes=1; No=0;
+,provided_rules_council,Were you provided with the copy of rules and procedures of the municipal council?,,"Binary, Qualitative",Yes=1; No=0;
+,training_gender_eq_integ,Is there any training of councilors in institutionalizing or for integration of gender equality into the management of the council?,Capacity Building,Binary,Yes=1; No;
+,need_training,Did you feel the need for training or orientation?,,Binary,Yes=1; No=0;
+,organize_training_council,Did the municipal councilor organize any training sessions or capacity building sessions for first time councilors?,,Binary,Yes=1; No=0;
+,organize_training_party,Did any of the political parties organize any training session?,,Binary,Yes=1; No=0;
+,,,,,
+,criticism_dm_family,What are some criticisms faced by you as a decision maker from your family?,Critical Experiences,Qualitative,
+,criticism_dm_society,What are some criticisms faced by you as a decision maker from society?,,Qualitative,
+,criticism_dm_colleague,What are some criticisms faced by you as a decision maker from colleagues?,,Qualitative,
+,,,,,
+,waste_bins,Do you have waste bins in your office room?,Workplace Experiences,Qualitative,Yes=1; No=0;
+,office_cleaning,Do you think your office rooms are clean enough?,,Binary,Yes=1; No=0;
+,office_smoking,Is smoking allowed inside your office room?,,Binary,Yes=1; No=0;
+,toilet_cleaning,Do you think your toilet is clean enough?,,Binary,Yes=1; No=0;
+,suit_environment,Does your work environment suit you?,,Binary,Yes=1; No=0;
+,safety_work,Is there any lack of safety at the workplace?,,Binary,Yes=1; No=0;
+,,,,,
+,contact_male_fam_work,Do you feel free to contact your male councilors/family members in discussing any problem in the workplace/home?,Gender Dynamics,Binary,Yes=1; No=0;
+,comfort_work_male,Are you comfortable working with your male colleagues?,,Binary,Yes=1; No=0;
+,male_jealousy,Do you feel your male colleagues are being jealous of you?,,Binary,Yes=1; No=0;
+,male_ignore_decision,Do you think your male colleagues are trying to ignore your decision and try to put their own decision on you?,,Binary,Yes=1; No=0;
+,,,,,
+,initial_problems,"Was there any initial problem, faced by you, in terms of rules and procedures?",Challenges in Power Execution,Binary,Yes=1; No=0;
+,women_problems_duties,What are the problems faced by women councilors in charge of their duties?,,Qualitative,
+,main_hurdle_meetings,What are the main hurdles in attending the meeting of the municipal councils?,,Qualitative,Busy in domestic work=DW; Do not bother about meetings=DN; Dominating/bias attitude of male=MA; Work done by their male members=MW; Dual responsibility at home and council=DR; Illiteracy=I; None of these=-99;
+,main_prob_dev,What are the main problems you are facing for the development of your area?,,Qualitative,Lack of public cooperation=PC; Lack of urban leaders=UL; Lack of municipal council officials cooperation=MC; More political interference=PI;
+,,,,,
+,fam_resist_elect,Did you face any family resistance while taking part in elections?,Challenges from Family,Binary,Yes=1; No=1;
+,type_resist,"If yes, what type of resistance did you face and from whom?",,Binary,
+,prob_elect,Did you face any problems in contesting the election?,,Binary,Yes=1; No=1;
+,type_prob,"If yes, what type of probems did you face?",,Binary,
+,help_prob_overcome,Who helped you to overcome these problems?,,Qualitative,
+,,,,,
+,male_support_campaigns,What general level of support did you get from males during your election campaign?,Support in Fieldwork,Integer,Very good = 100; Good=80; Moderate=50; Poor=10;
+,female_support_campaigns,What general level of support did you get from females during your election campaign?,,Integer,Very good = 100; Good=80; Moderate=50; Poor=10;
+,lack_exp_prob,"If you are, or when you were, a first time candidate, do you think lack of experience created any problem?",,Binary,Yes=1; No=0;
+,,,,,
+,gender_analysis_budget,Is staff training in gender equality issues and gender analysis systematically budgeted for in the council?,Resource Alllocation,,To the fullest extent=100; To a great extent=80; To a moderate extent=50; To a limited extent=30; Not at all=-99;
+,council_gender_integ,Has the council budgeted adequate financial resources to support its gender integration work?,,,To the fullest extent=100; To a great extent=80; To a moderate extent=50; To a limited extent=30; Not at all=-99;
+,gender_policy_finance,Are financial resources from the council's core budget allocated for the enforcement of the gender policy at all levels?,,,To the fullest extent=100; To a great extent=80; To a moderate extent=50; To a limited extent=30; Not at all=-99;
+,frac_budget_wom_serv,"What fraction of the budget is on essential services for women? (E.g reproductive health, maternity centers etc.)",,,
+,,,,,
+,opinion_councillor_gender,What is your opinion of the following statement: “The councilors in the council are enthusiastic about the gender work they do”,Scope for Growth,Integer,Strongly Agree=2; Agree=1; No opinion=0; Disagree=-1; Strongly disagree=-2;
+,opinion_examp_gender_eq,Do you know/follow any good practices in your council to pursue the goal of gender equality? Elaborate.,,Integer,Strongly Agree=2; Agree=1; No opinion=0; Disagree=-1; Strongly disagree=-2;
+,council_act_gender_eq,Are there any council activities centered around gender equality and empowerment?,,Binary,Yes=1; No=0;
+,policy_council_gender_eq,What policies or actions do you think can make your council more gender equal?,,Qualitative,
+,opinion_gender_analysis,What is your opinion of the following statement: “The council could do much more than it is currently doing to institutionalize gender analysis.”,,Integer,Strongly Agree=2; Agree=1; No opinion=0; Disagree=-1; Strongly disagree=-2;
+,opinion_ideal_council,"In the council, what are three most important characteristics of an ideal council according to you?",,Qualitative,
+,female_rep_manage,What do you think management of the council is committed to promoting not just female representation but also female participation?,,Binary,Strongly Agree=2; Agree=1; No opinion=0; Disagree=-1; Strongly disagree=-2;
+,suggest_patriarchy,"To tackle social problems like fundamentalism or patriarchy, what do you suggest?",,Qualitative,
+,suggest_strength_council,What are your suggestions to strengthen municipal councils?,,Qualitative,
+,suggest_improve_part,Which of these measures do you suggest for improving the active political participation of women in municipal councils?,,Qualitative,Spreading political education amongst women=PE; Reservation in municipal councils=MC; Awareness about their rights=AR; Training campus and orientation programmes=CP;
+,,,,,
+,council_1,Kishangarh,,,K
+,council_2,Bhilwara,,,Bh
+,council_3,Nagaur,,,N
+,council_4,Tonk,,,T
+,council_5,Makrana,,,M
+,council_6,Beawar,,,Be
